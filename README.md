@@ -5,7 +5,7 @@
 <p align="center">
  EGO CHALLENGE
 </p> 
-Esta **API** fue desarrollada en **Django** y proporciona endpoints para realizar operaciones CRUD en relación a los vehiculos de Toyota. 
+Esta API fue desarrollada en Django y proporciona endpoints para realizar operaciones CRUD en relación a los vehiculos de Toyota. 
 
 ## Requisitos:
 
