@@ -5,7 +5,9 @@
 <p align="center">
  EGO CHALLENGE
 </p> 
-Esta API fue desarrollada en Django y proporciona endpoints para realizar operaciones CRUD en relación a los vehiculos de Toyota. 
+<p align="center">
+ Esta API fue desarrollada en Django y proporciona endpoints para realizar operaciones CRUD en relación a los vehiculos de Toyota. 
+</p>
 
 ## Requisitos:
 
@@ -110,15 +112,15 @@ PUT /cars/${id}/
 
 ```javascript
 {
-"id": 1,
-"brand": "Marca del vehiculo",
-"model": "Modelo del vehiculo",
-"category": "Categoria del vehiculo",
-"img": "Imagen del vehiculo,
-"title": "Titulo del vehiuculo",
-"description": "Descripcción del vehiculo",
-"year": 2019,
-"price": 815900
+  "id": 1,
+  "brand": "Marca del vehiculo",
+  "model": "Modelo del vehiculo",
+  "category": "Categoria del vehiculo",
+  "img": "Imagen del vehiculo",
+  "title": "Titulo del vehiuculo",
+  "description": "Descripcción del vehiculo",
+  "year": 2019,
+  "price": 815900
 }
 ```
 
@@ -133,15 +135,15 @@ PATCH /cars/${id}/
 
 ```javascript
 {
-"id": 1,
-"brand": "Marca del vehiculo",
-"model": "Modelo del vehiculo",
-"category": "Categoria del vehiculo",
-"img": "Imagen del vehiculo,
-"title": "Titulo del vehiuculo",
-"description": "Descripcción del vehiculo",
-"year": 2019,
-"price": 815900
+  "id": 1,
+  "brand": "Marca del vehiculo",
+  "model": "Modelo del vehiculo",
+  "category": "Categoria del vehiculo",
+  "img": "Imagen del vehiculo",
+  "title": "Titulo del vehiuculo",
+  "description": "Descripcción del vehiculo",
+  "year": 2019,
+  "price": 815900
 }
 ```
 #### Delete Car
